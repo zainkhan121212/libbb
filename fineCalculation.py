@@ -13,7 +13,7 @@ def calculate_fine():
     return_date_str = entry_return.get()
 
     if not member or not book or not due_date_str or not return_date_str:
-        messagebox.showwarning("⚠️ Missing Info", "Please fill all the fields.")
+        messagebox.showwarning("⚠ Missing Info", "Please fill all the fields.")
         return
 
     try:
